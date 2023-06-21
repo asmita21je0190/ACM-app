@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acmiitism.acm">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/acm"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/acm"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.acmiitism.acm.SignUpActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.acmiitism.acm.ForgotPassword"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.acmiitism.acm.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.acmiitism.acm.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.acmiitism.acm.MainActivity2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.acmiitism.acm.DisplayEvents"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.acmiitism.acm.DisplayPastEvents"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.acmiitism.acm.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

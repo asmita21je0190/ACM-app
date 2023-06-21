@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ACM IIT(ISM) Dhanbad</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_out_toolbar">Sign Out</string>
+    <string name="aboutACM">"IIT(ISM) Dhanbad ACM student chapter was established in 2011 under the aegis of Department of Computer Science and Engineering IIT(ISM) Dhanbad.
+        \nThe chapter aims at serving as a dynamic hub of activities for the computing fraternity of IIT(ISM) Dhanbad, where enthusiasts meet, interact and learn from each other"</string>
+    <string name="aboutInstitute">IIT(ISM) Dhanbad is one of the oldest institutions in India established in the year 1926. It was established on the lines of Royal School of Mines-London under the name Indian School of Mines located in Dhanbad, Coal Capital of India.
+        \n\nIndian School of Mines started by offering Mining Engineering, Applied Geology, Applied Physics, Applied Chemistry, Applied Mathematics and gradually started offering core courses of Computer Science, Electrical, Electronics etc expanding from Earth Sciences to technical side. Later in the year 2016, Indian School of Mines was awarded the tag of an IIT and renamed as Indian Institute of Technology(Indian School of Mines), Dhanbad.
+        \n\nWith a clear intent of the institution to improve the amount of research and projects in the institution, it has invested most of it\'s resources dedicated towards the projects and research.</string>
+
+</resources>
